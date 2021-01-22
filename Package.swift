@@ -3,6 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "ReactiveSwift",
+    type: .dynamic,
     platforms: [
         .macOS(.v10_10), .iOS(.v9), .tvOS(.v9), .watchOS(.v2)
     ],
